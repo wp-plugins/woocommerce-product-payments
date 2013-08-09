@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Woocommerce Product Payments
+ * Plugin Name: Woocommerce Payment Gateway per Product
  * Plugin URI: http://www.dreamfox.nl
  * Description: This plugin for woocommerce lets you select the available payment gateways for each individual product.
  * Version: 1.0.1

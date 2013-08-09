@@ -1,4 +1,4 @@
-=== Woocommerce Product Payments ===
+=== Woocommerce Payment Gateway per Product ===
 Contributors: dreamfox
 Donate link: http://www.dreamfox.nl
 Tags: woocommerce,payments,plugin,free
