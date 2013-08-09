@@ -36,6 +36,8 @@ Then both payment gateways are shown by checkout
 3. screenshot3.png
 
 == Changelog ==
+= 1.0.2 =
+* clean typo
 
 = 1.0.1 =
 * added author
