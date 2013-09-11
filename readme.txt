@@ -57,6 +57,9 @@ Then both payment gateways are shown by checkout
 
 == Changelog ==
 
+= 1.0.3 =
+* add limit
+
 = 1.0.2 =
 * fixed typo
 
