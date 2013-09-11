@@ -12,7 +12,7 @@ This plugin for woocommerce lets you select the available payment gateways for e
 
 == Description ==
 
-This plugin for woocommerce lets you select the available payment gateways for each individual product. 
+This plugin for woocommerce lets you select the available payment gateways for each individual product. great
 You can select for eacht individual product the payment gateway that will be used by checkout. If no selection is made, then the default payment gateways are displayed. If you for example only select paypal then only paypal will available for that product by checking out.
 
 == Installation ==
