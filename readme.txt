@@ -4,7 +4,7 @@ Donate link: http://www.dreamfox.nl
 Tags: woocommerce,payments,plugin,free
 Requires at least: 3.0.1
 Tested up to: 3.6
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,26 @@ You can select for eacht individual product the payment gateway that will be use
 
 == Installation ==
 
+= For automatic installation: =
+
+The simplest way to install is to click on 'Plugins' then 'Add' and type 'Woocommerce Payment Gateway per Product' in the search field.
+
+= For manual installation 1: =
+
+1. Login to your website and go to the Plugins section of your admin panel.
+1. Click the Add New button.
+1. Under Install Plugins, click the Upload link.
+1. Select the plugin zip file (woocommerce-product-payments.x.x.x.zip) from your computer then click the Install Now button.
+1. You should see a message stating that the plugin was installed successfully.
+1. Click the Activate Plugin link.
+
+= For manual installation 2: =
+
+1. You should have access to the server where WordPress is installed. If you don't, see your system administrator.
+1. Copy the plugin zip file (woocommerce-product-payments.x.x.x.zip) up to your server and unzip it somewhere on the file system.
+1. Copy the "woocommerce-product-payments" folder into the /wp-content/plugins directory of your WordPress installation.
+1. Login to your website and go to the Plugins section of your admin panel.
+1. Look for "woocommerce-product-payments" and click Activate.
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
@@ -37,8 +57,11 @@ Then both payment gateways are shown by checkout
 
 == Changelog ==
 
+= 1.0.3 =
+* add limit
+
 = 1.0.2 =
-* clean typo
+* fixed typo
 
 = 1.0.1 =
 * added author
