@@ -12,8 +12,11 @@ This plugin for woocommerce lets you select the available payment gateways for e
 
 == Description ==
 
-This plugin for woocommerce lets you select the available payment gateways for each individual product. 
+This plugin for woocommerce lets you select the available payment gateways for each individual product.
 You can select for eacht individual product the payment gateway that will be used by checkout. If no selection is made, then the default payment gateways are displayed. If you for example only select paypal then only paypal will available for that product by checking out.
+
+This version is limited to set different payment gateways for 10 product.
+For a small fee you can get the full version with no limitation at: <a href="http://www.dreamfox.nl" target="_blank">www.dreamfox.nl</a>.
 
 == Installation ==
 
@@ -48,6 +51,11 @@ Allowed payment gateways goes before denied payment gateways. so if for example 
 - product 1 to paypal
 - product 2 to paypal & creditcard
 Then both payment gateways are shown by checkout
+
+= More Information =
+
+For more information, feel free to visit the official website for this plugin: <a href="http://www.dreamfox.nl" target="_blank">Dreamfox</a>.
+
 
 == Screenshots ==
 
