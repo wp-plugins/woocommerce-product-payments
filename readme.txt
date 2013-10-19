@@ -66,6 +66,9 @@ For more information, feel free to visit the official website for this plugin: <
 
 == Changelog ==
 
+= 1.0.4 =
+* Tested on Woocommerce 2.0.17
+
 = 1.0.3 =
 * add limit
 
