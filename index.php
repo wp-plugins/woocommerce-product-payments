@@ -3,11 +3,11 @@
  * Plugin Name: Woocommerce Payment Gateway per Product
  * Plugin URI: http://www.dreamfox.nl
  * Description: This plugin for woocommerce lets you select the available payment gateways for each individual product.
- * Version: 1.0.1
+ * Version: 1.0.4
  * Author: Marco van Loghum Slaterus
  * Author URI: http://www.dreamfox.nl
  * Requires at least: 3.0
- * Tested up to: 3.5
+ * Tested up to: 3.7
  *
  * Text Domain: woocommerce
  * Domain Path: /i18n/languages/
@@ -72,8 +72,3 @@ function payment_gateway_disable_country( $available_gateways ) {
 	return $available_gateways;
 }
 add_filter( 'woocommerce_available_payment_gateways', 'payment_gateway_disable_country' );
-
-
-
-
-
