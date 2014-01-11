@@ -3,8 +3,8 @@ Contributors: dreamfox
 Donate link: http://www.dreamfox.nl
 Tags: woocommerce,payments,plugin,free
 Requires at least: 3.0.1
-Tested up to: 3.6
-Stable tag: 1.0.4
+Tested up to: 3.8
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,10 +14,13 @@ This plugin for woocommerce lets you select the available payment gateways for e
 
 This plugin for woocommerce lets you select the available payment gateways for each individual product.
 You can select for eacht individual product the payment gateway that will be used by checkout. If no selection is made, then the default payment gateways are displayed. If you for example only select paypal then only paypal will available for that product by checking out.
-Works on Woocommerce 2.0.13 - Woocommerce 2.0.17
+Works on Woocommerce 2.0.13 - Woocommerce 2.0.20
 
 This version is limited to set different payment gateways for 10 product.
 For a small fee you can get the full version with no limitation at: <a href="http://www.dreamfox.nl" target="_blank">www.dreamfox.nl</a>.
+
+<b>other plugins from Dreamfox:</b><br>
+Shipping per product:  <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Free version</a> - <a href="http://www.dreamfox.nl/shop/shipping-gateway-per-product-woocommerce/" target="_blank">Full version</a> 
 
 == Installation ==
 
@@ -65,6 +68,9 @@ For more information, feel free to visit the official website for this plugin: <
 3. screenshot3.png
 
 == Changelog ==
+
+= 1.0.6 =
+* Bugfixes
 
 = 1.0.4 =
 * Tested on Woocommerce 2.0.17
