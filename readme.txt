@@ -4,7 +4,7 @@ Donate link: http://www.dreamfox.nl
 Tags: woocommerce,payments,plugin,free
 Requires at least: 3.0.1
 Tested up to: 3.8
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -68,6 +68,9 @@ For more information, feel free to visit the official website for this plugin: <
 3. screenshot3.png
 
 == Changelog ==
+= 1.1.1 =
+* Fix bugs of available gateways for multiple products on cart
+
 = 1.1.0 =
 * Fix bugs of available gateways
 

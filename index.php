@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Woocommerce Product Payments Full
  * Plugin URI: www.dreamfox.nl 
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: Marco van Loghum
  * Author URI: www.dreamfox.nl 
  * Description: Extend Woocommerce plugin to add payments methods to a product
@@ -81,7 +81,7 @@ function wpppayment_gateway_disable_country( $available_gateways ) {
 		if(is_array($items)){
 			foreach($items as $item){
 				$itemsPays = get_post_meta($item['product_id'], 'payments', true) ;
-				if( count($itemsPays) ){
+				if( is_array( $itemsPays ) && count($itemsPays) ){
 					foreach( $arrayKeys as $key ){
                         if( !in_array( $available_gateways[$key]->id ,$itemsPays) ){
 							unset($available_gateways[$key]);
