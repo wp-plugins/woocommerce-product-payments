@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Woocommerce Product Payments Full
  * Plugin URI: www.dreamfox.nl 
- * Version: 1.1.2
+ * Version: 1.1.3
  * Author: Marco van Loghum
  * Author URI: www.dreamfox.nl 
  * Description: Extend Woocommerce plugin to add payments methods to a product
@@ -10,8 +10,8 @@
  * Tested up to: 3.8
  */
 //require_once ABSPATH . WPINC . '/pluggable.php';;
-require_once dirname(dirname(__FILE__)).'/woocommerce/classes/class-wc-payment-gateways.php';
-require_once dirname(dirname(__FILE__)).'/woocommerce/classes/class-wc-cart.php';
+//require_once dirname(dirname(__FILE__)).'/woocommerce/classes/class-wc-payment-gateways.php';
+//require_once dirname(dirname(__FILE__)).'/woocommerce/classes/class-wc-cart.php';
 
 add_action( 'add_meta_boxes', 'wpp_meta_box_add' );  
 function wpp_meta_box_add()  
