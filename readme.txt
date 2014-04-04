@@ -3,8 +3,8 @@ Contributors: dreamfox
 Donate link: http://www.dreamfox.nl
 Tags: woocommerce,payments,plugin,free
 Requires at least: 3.0.1
-Tested up to: 3.8
-Stable tag: 1.1.3
+Tested up to: 3.8.1
+Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ This plugin for woocommerce lets you select the available payment gateways for e
 
 This plugin for woocommerce lets you select the available payment gateways for each individual product.
 You can select for eacht individual product the payment gateway that will be used by checkout. If no selection is made, then the default payment gateways are displayed. If you for example only select paypal then only paypal will available for that product by checking out.
-Works on Woocommerce 2.0.13 - Woocommerce 2.0.20
+Works on Woocommerce 2.0.13 - Woocommerce 2.1.6
 
 This version is limited to set different payment gateways for 10 product.
 For a small fee you can get the full version with no limitation at: <a href="http://www.dreamfox.nl" target="_blank">www.dreamfox.nl</a>.
@@ -68,11 +68,14 @@ For more information, feel free to visit the official website for this plugin: <
 3. screenshot3.png
 
 == Changelog ==
+= 1.1.4 =
+* Restrict to save for autosave & revision
+
 = 1.1.3 =
-= Remove duplicate added files
- 
+* Remove duplicate added files 
+
 = 1.1.2 =
-= Fix conflicting with wp_mandrill plugin
+* Fix conflicting with wp_mandrill plugin
  
 = 1.1.1 =
 * Fix bugs of available gateways for multiple products on cart

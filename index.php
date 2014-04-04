@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Woocommerce Product Payments Full
  * Plugin URI: www.dreamfox.nl 
- * Version: 1.1.3
+ * Version: 1.1.4
  * Author: Marco van Loghum
  * Author URI: www.dreamfox.nl 
  * Description: Extend Woocommerce plugin to add payments methods to a product
@@ -52,8 +52,16 @@ function wpp_payments_form()
 } 
 
 add_action('save_post', 'wpp_meta_box_save', 10, 2 );
-function wpp_meta_box_save( $post_id )  
+function wpp_meta_box_save( $post_id, $post )  
 {   
+	// Restrict to save for autosave
+	if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE )
+	 	return $post_id;
+
+	// Restrict to save for revisions
+   	if ( isset( $post->post_type ) && $post->post_type == 'revision' )
+      return $post_id;
+		
 	if($_POST['post_type']=='product'){
 	
 		$productIds = get_option('woocommerce_product_apply');
