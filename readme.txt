@@ -20,7 +20,7 @@ This version is limited to set different payment gateways for 10 product.
 For a small fee you can get the full version with no limitation at: <a href="http://www.dreamfox.nl" target="_blank">www.dreamfox.nl</a>.
 
 <b>other plugins from Dreamfox:</b><br>
--Shipping per product:  <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Free version</a> - <a href="http://www.dreamfox.nl/shop/shipping-gateway-per-product-woocommerce/" target="_blank">Full version</a>
+-Shipping per product:  <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Free version</a> - <a href="http://www.dreamfox.nl/shop/shipping-gateway-per-product-woocommerce/" target="_blank">Full version</a><br>
 -Woocommerce Delivery Date:  <a href="https://wordpress.org/plugins/woocommerce-delivery-date/" target="_blank">Information</a> - <a href="https://wordpress.org/plugins/woocommerce-delivery-date/" target="_blank">Free version</a> - <a href="http://www.dreamfox.nl/shop/woocommerce-delivery-date-v1-0-0/" target="_blank">Full version</a>
 
 == Installation ==
