@@ -40,7 +40,7 @@ function wpp_payments_form()
 	}
 	
 	$woo = new WC_Payment_Gateways();
-	$payments = $woo->get_available_payment_gateways();
+	$payments = $woo->payment_gateways;
 	foreach($payments as $pay){
 		$checked = '';
 		if( is_array( $postPayments ) && in_array($pay->id, $postPayments)) $checked = ' checked="yes" '; ?>  
