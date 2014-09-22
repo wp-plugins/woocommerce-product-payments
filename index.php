@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Woocommerce Product Payments
- * Plugin URI: www.dreamfox.nl 
- * Version: 1.1.6
+ * Plugin URI: www.dreamfoxmedia.nl 
+ * Version: 1.1.7
  * Author: Marco van Loghum
- * Author URI: www.dreamfox.nl 
+ * Author URI: www.dreamfoxmedia.nl 
  * Description: Extend Woocommerce plugin to add payments methods to a product
  * Requires at least: 3.7
- * Tested up to: 3.8
+ * Tested up to: 4.0
  */
 //require_once ABSPATH . WPINC . '/pluggable.php';;
 //require_once dirname(dirname(__FILE__)).'/woocommerce/classes/class-wc-payment-gateways.php';
@@ -91,7 +91,7 @@ function wpppayment_gateway_disable_country( $available_gateways ) {
 				$itemsPays = get_post_meta($item['product_id'], 'payments', true) ;
 				if( is_array( $itemsPays ) && count($itemsPays) ){
 					foreach( $arrayKeys as $key ){
-                        if( !in_array( $available_gateways[$key]->id ,$itemsPays) ){
+                                        if(array_key_exists( $key, $available_gateways ) && !in_array( $available_gateways[$key]->id ,$itemsPays) ){
 							unset($available_gateways[$key]);
 					    }
 					}

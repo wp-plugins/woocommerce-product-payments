@@ -1,10 +1,10 @@
 === Woocommerce Payment Gateway per Product ===
 Contributors: dreamfox
-Donate link: http://www.dreamfox.nl
+Donate link: http://www.dreamfoxmedia.nl
 Tags: woocommerce,payments,plugin,free
 Requires at least: 3.0.1
-Tested up to: 3.8
-Stable tag: 1.1.6
+Tested up to: 4.0
+Stable tag: 1.1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,14 +14,14 @@ This plugin for woocommerce lets you select the available payment gateways for e
 
 This plugin for woocommerce lets you select the available payment gateways for each individual product.
 You can select for eacht individual product the payment gateway that will be used by checkout. If no selection is made, then the default payment gateways are displayed. If you for example only select paypal then only paypal will available for that product by checking out.
-Works on Woocommerce 2.0.13 - Woocommerce 2.1.8
+Works on Woocommerce 2.0.13 - Woocommerce 2.2.4
 
 This version is limited to set different payment gateways for 10 product.
-For a small fee you can get the full version with no limitation at: <a href="http://www.dreamfox.nl" target="_blank">www.dreamfox.nl</a>.
+For a small fee you can get the full version with no limitation at: <a href="http://www.dreamfoxmedia.nl" target="_blank">www.dreamfoxmedia.nl</a>.
 
 <b>other plugins from Dreamfox:</b><br>
--Shipping per product:  <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Free version</a> - <a href="http://www.dreamfox.nl/shop/shipping-gateway-per-product-woocommerce/" target="_blank">Full version</a><br>
--Woocommerce Delivery Date:  <a href="https://wordpress.org/plugins/woocommerce-delivery-date/" target="_blank">Information</a> - <a href="https://wordpress.org/plugins/woocommerce-delivery-date/" target="_blank">Free version</a> - <a href="http://www.dreamfox.nl/shop/woocommerce-delivery-date-v1-0-0/" target="_blank">Full version</a>
+-Shipping per product:  <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Free version</a> - <a href="http://www.dreamfoxmedia.nl/shop/shipping-gateway-per-product-woocommerce/" target="_blank">Full version</a>
+-Woocommerce Delivery Date:  <a href="https://wordpress.org/plugins/woocommerce-delivery-date/" target="_blank">Information</a> - <a href="https://wordpress.org/plugins/woocommerce-delivery-date/" target="_blank">Free version</a> - <a href="http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-v1-0-0/" target="_blank">Full version</a>
 
 == Installation ==
 
@@ -59,7 +59,7 @@ Then both payment gateways are shown by checkout
 
 = More Information =
 
-For more information, feel free to visit the official website for this plugin: <a href="http://www.dreamfox.nl" target="_blank">Dreamfox</a>.
+For more information, feel free to visit the official website for this plugin: <a href="http://www.dreamfoxmedia.nl" target="_blank">Dreamfox</a>.
 
 
 == Screenshots ==
@@ -69,6 +69,9 @@ For more information, feel free to visit the official website for this plugin: <
 3. screenshot3.png
 
 == Changelog ==
+= 1.1.7 =
+* tested and fixed for wordpress 4.1 and woocommerce 2.2.4
+
 = 1.1.6 =
 * Fix payment block display at the time of adding product( woocommerce 2.1.8 )
 
