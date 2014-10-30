@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Woocommerce Product Payments
+ * Plugin Name: Woocommerce Payment Gateway per Product
  * Plugin URI: www.dreamfoxmedia.nl 
  * Version: 1.1.7
  * Author: Marco van Loghum
