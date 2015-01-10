@@ -27,6 +27,7 @@ For a small fee you can get the Pro version with no limitation at: <a href="http
 
 **Pro version (19,95):**
 **[Woocommerce Payment Gateway per Product Pro](http://www.dreamfoxmedia.nl/shop/woocommerce-payment-gateway-per-product-pro/ "Order Payment Gateway Pro")**
+Features:
 <ol>
 <li>Unlimited products</li>
 </ol>
