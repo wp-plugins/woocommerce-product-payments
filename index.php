@@ -1,13 +1,14 @@
 <?php
 /**
- * Plugin Name: Woocommerce Payment Gateway per Product
+ * Plugin Name: Woocommerce Product Payments
  * Plugin URI: www.dreamfoxmedia.nl 
- * Version: 1.1.7
+ * Version: 1.1.9
  * Author: Marco van Loghum
  * Author URI: www.dreamfoxmedia.nl 
  * Description: Extend Woocommerce plugin to add payments methods to a product
  * Requires at least: 3.7
- * Tested up to: 4.0
+ * Tested up to: 4.1
+ * @developer Softsdev <mail.softsdev@gmail.com>
  */
 //require_once ABSPATH . WPINC . '/pluggable.php';;
 //require_once dirname(dirname(__FILE__)).'/woocommerce/classes/class-wc-payment-gateways.php';
@@ -35,7 +36,7 @@ function wpp_payments_form()
 	
 	$postPayments = count ( get_post_meta($post->ID, 'payments', true) ) ? get_post_meta($post->ID, 'payments', true) : array() ;
 	if( count( $productIds )>=10 && !count( $postPayments ) ){
-		echo 'Limit reached Please download full version package at www.dreamfox.nl!';
+		echo 'Limit reached Please download full version package at www.dreamfoxmedia.nl!';
 		return;
 	}
 	
@@ -62,10 +63,10 @@ function wpp_meta_box_save( $post_id, $post )
    	if ( isset( $post->post_type ) && $post->post_type == 'revision' )
       return $post_id;
 		
-	if($_POST['post_type']=='product'){
+	if(isset( $_POST['post_type'] ) && $_POST['post_type']=='product'){
 	
 		$productIds = get_option('woocommerce_product_apply');
-		if( !in_array( $post_id, $productIds ) && count( $productIds ) <= 10 ){
+		if( is_array($productIds) && !in_array( $post_id, $productIds ) && count( $productIds ) <= 10 ){
 			$productIds[] = $post_id;
 			update_option('woocommerce_product_apply', $productIds);
 		}

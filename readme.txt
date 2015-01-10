@@ -3,8 +3,8 @@ Contributors: dreamfox
 Donate link: http://www.dreamfoxmedia.nl
 Tags: woocommerce,payments,plugin,free
 Requires at least: 3.0.1
-Tested up to: 4.0
-Stable tag: 1.1.7
+Tested up to: 4.1
+Stable tag: 1.1.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,16 +12,38 @@ This plugin for woocommerce lets you select the available payment gateways for e
 
 == Description ==
 
+This plugin for woocommerce lets you select the available payment gateways for each individual product. 
+
+5 STARS RATING FOR THIS PLUGIN! SEE:<br> 
+http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/
+
 This plugin for woocommerce lets you select the available payment gateways for each individual product.
 You can select for eacht individual product the payment gateway that will be used by checkout. If no selection is made, then the default payment gateways are displayed. If you for example only select paypal then only paypal will available for that product by checking out.
-Works on lastest Woocommerce
+Works on latest Woocommerce version.
+This plugin allows you to improve your customer service by giving the best payment service for your customers.
+This version is limited in features.
+For a small fee you can get the Pro version with no limitation at: <a href="http://www.dreamfoxmedia.nl/shop/woocommerce-payment-gateway-per-product-pro/" target="_blank">www.dreamfoxmedia.nl</a>.
 
-This version is limited to set different payment gateways for 10 product.
-For a small fee you can get the full version with no limitation at: <a href="http://www.dreamfoxmedia.nl" target="_blank">www.dreamfoxmedia.nl</a>.
 
-<b>other plugins from Dreamfox:</b><br>
--Shipping per product:  <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a> - <a href="http://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Free version</a> - <a href="http://www.dreamfoxmedia.nl/shop/shipping-gateway-per-product-woocommerce/" target="_blank">Full version</a>
--Woocommerce Delivery Date:  <a href="https://wordpress.org/plugins/woocommerce-delivery-date/" target="_blank">Information</a> - <a href="https://wordpress.org/plugins/woocommerce-delivery-date/" target="_blank">Free version</a> - <a href="http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-v1-0-0/" target="_blank">Full version</a>
+**Pro version (19,95):**
+**[Woocommerce Payment Gateway per Product Pro](http://www.dreamfoxmedia.nl/shop/woocommerce-payment-gateway-per-product-pro/ "Order Payment Gateway Pro")**
+<ol>
+<li>Unlimited products</li>
+</ol>
+
+<strong>Demo is available (frontend & Backend)</strong>:<br>
+**View Demo @ [http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/](http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/ "View Demo")**
+
+<strong>other WooCommerce plugins from Dreamfox:</strong<br>
+<ol>
+<li>Shipping Gateway per Product: <a href="https://wordpress.org/plugins/woocommerce-shipping-gateway-per-product/" target="_blank">Information</a></li>
+<li>WooCOmmerce Delivery Date Plugin: <a href="https://wordpress.org/plugins/woocommerce-delivery-date/" target="_blank">Information</a></li>
+<li>WooCommerce Mailchimp Plugin: <a href="https://wordpress.org/plugins/woocommerce-mailchimp-plugin/" target="_blank">Information</a></li>
+</ol>
+
+<strong>Social media:</strong><br>
+Twitter: <a href="https://twitter.com/dreamfoxmedia">https://twitter.com/dreamfoxmedia</a><br>
+Facebook: <a href="https://www.facebook.com/dreamfoxmedia">https://www.facebook.com/dreamfoxmedia</a>
 
 == Installation ==
 
@@ -59,7 +81,7 @@ Then both payment gateways are shown by checkout
 
 = More Information =
 
-For more information, feel free to visit the official website for this plugin: <a href="http://www.dreamfoxmedia.nl" target="_blank">Dreamfox</a>.
+For more information, feel free to visit the official website for this plugin: <a href="http://www.dreamfox.nl" target="_blank">Dreamfox</a>.
 
 
 == Screenshots ==
@@ -69,8 +91,11 @@ For more information, feel free to visit the official website for this plugin: <
 3. screenshot3.png
 
 == Changelog ==
-= 1.1.7 =
-* tested and fixed for wordpress 4.1 and woocommerce 2.2.4
+= 1.1.9 =
+* fixed common issue.
+
+= 1.1.8 =
+* Fix Warning: in_array() [function.in-array]: Wrong datatype for second argument
 
 = 1.1.6 =
 * Fix payment block display at the time of adding product( woocommerce 2.1.8 )
