@@ -15,7 +15,7 @@ This plugin for woocommerce lets you select the available payment gateways for e
 This plugin for woocommerce lets you select the available payment gateways for each individual product. 
 
 5 STARS RATING FOR THIS PLUGIN! SEE:<br> 
-http://www.dreamfoxmedia.nl/shop/woocommerce-delivery-date-pro/
+http://www.dreamfoxmedia.nl/shop/woocommerce-payment-gateway-per-product-pro/
 
 This plugin for woocommerce lets you select the available payment gateways for each individual product.
 You can select for eacht individual product the payment gateway that will be used by checkout. If no selection is made, then the default payment gateways are displayed. If you for example only select paypal then only paypal will available for that product by checking out.
@@ -32,7 +32,7 @@ For a small fee you can get the Pro version with no limitation at: <a href="http
 </ol>
 
 <strong>Demo is available (frontend & Backend)</strong>:<br>
-**View Demo @ [http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/](http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-delivery-date/ "View Demo")**
+**View Demo @ [http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-payment-gateway/](http://demo.dreamfoxmedia.nl/wordpress/available-demos/demo-payment-gateway/ "View Demo")**
 
 <strong>other WooCommerce plugins from Dreamfox:</strong<br>
 <ol>
