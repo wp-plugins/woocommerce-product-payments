@@ -17,16 +17,20 @@ This plugin for woocommerce lets you select the available payment gateways for e
 5 STARS RATING FOR THIS PLUGIN! SEE:<br> 
 http://www.dreamfoxmedia.nl/shop/woocommerce-payment-gateway-per-product-pro/
 
-This plugin for woocommerce lets you select the available payment gateways for each individual product.
-You can select for eacht individual product the payment gateway that will be used by checkout. If no selection is made, then the default payment gateways are displayed. If you for example only select paypal then only paypal will available for that product by checking out.
-Works on latest Woocommerce version.
-This plugin allows you to improve your customer service by giving the best payment service for your customers.
-This version is limited in features.
-For a small fee you can get the Pro version with no limitation at: <a href="http://www.dreamfoxmedia.nl/shop/woocommerce-payment-gateway-per-product-pro/" target="_blank">www.dreamfoxmedia.nl</a>.
+This plugin for woocommerce lets you select the available payment gateways for each individual product.<br>
+You can select for eacht individual product the payment gateway that will be used by checkout.<br>
+If no selection is made, then the default payment gateways are displayed.<br>
+If you for example only select paypal then only paypal will available for that product by checking out.<br>
+Works on latest Woocommerce version.<br>
+This plugin allows you to improve your customer service by giving the best payment service for your customers.<br>
+This version is limited in features (you can only select gateways for 10 products).<br>
+For a small fee you can get the Pro version with no limitation at:<br>
+<a href="http://www.dreamfoxmedia.nl/shop/woocommerce-payment-gateway-per-product-pro/" target="_blank">www.dreamfoxmedia.nl</a>.
 
 
 **Pro version (19,95):**
-**[Woocommerce Payment Gateway per Product Pro](http://www.dreamfoxmedia.nl/shop/woocommerce-payment-gateway-per-product-pro/ "Order Payment Gateway Pro")**
+**[Woocommerce Payment Gateway per Product Pro](http://www.dreamfoxmedia.nl/shop/woocommerce-payment-gateway-per-product-pro/ "Order Payment Gateway Pro")**<br>
+<br>
 Features:
 <ol>
 <li>Unlimited products</li>
