@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Woocommerce Product Payments
  * Plugin URI: www.dreamfoxmedia.nl 
- * Version: 1.2.0
+ * Version: 1.2.1
  * Author: Marco van Loghum
  * Author URI: www.dreamfoxmedia.nl 
  * Description: Extend Woocommerce plugin to add payments methods to a product
